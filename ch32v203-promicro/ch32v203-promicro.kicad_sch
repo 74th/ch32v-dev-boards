@@ -2308,7 +2308,7 @@
     (uuid 7375c197-3897-4432-8938-1ae5a4f6e3d0)
     (property "Reference" "J2" (id 0) (at 224.155 90.17 0))
     (property "Value" "ProMicro-LeftPin" (id 1) (at 224.155 92.71 0))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" (id 2) (at 223.52 93.98 0)
+    (property "Footprint" "$74th:ProMicro_LIKE_LEFT" (id 2) (at 223.52 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 223.52 93.98 0)
@@ -2724,7 +2724,7 @@
     (uuid e1e03df2-7a42-4865-baeb-e2d3f6f87dbd)
     (property "Reference" "J3" (id 0) (at 252.095 91.44 0))
     (property "Value" "ProMicro-RightPin" (id 1) (at 252.095 93.98 0))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" (id 2) (at 248.92 95.25 0)
+    (property "Footprint" "$74th:ProMicro_LIKE_RIGHT" (id 2) (at 248.92 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 248.92 95.25 0)
@@ -2960,10 +2960,10 @@
       (reference "J1") (unit 1) (value "USB2.0_C_v3") (footprint "$74th:USB-C-12-Pin-SMD")
     )
     (path "/7375c197-3897-4432-8938-1ae5a4f6e3d0"
-      (reference "J2") (unit 1) (value "ProMicro-LeftPin") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical")
+      (reference "J2") (unit 1) (value "ProMicro-LeftPin") (footprint "$74th:ProMicro_LIKE_LEFT")
     )
     (path "/e1e03df2-7a42-4865-baeb-e2d3f6f87dbd"
-      (reference "J3") (unit 1) (value "ProMicro-RightPin") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical")
+      (reference "J3") (unit 1) (value "ProMicro-RightPin") (footprint "$74th:ProMicro_LIKE_RIGHT")
     )
     (path "/147c7672-da6d-4d35-b258-1722de507206"
       (reference "R1") (unit 1) (value "200") (footprint "$74th:Register_0805_2012")

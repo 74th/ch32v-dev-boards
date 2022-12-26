@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "ch32v-dev-boards")(type "KiCad")(uri "${KIPRJMOD}/../symbols/ch32v-dev-boards.kicad_sym")(options "")(descr ""))
+)

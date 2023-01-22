@@ -8,6 +8,8 @@
 
 ![](ch32v203-promicro-v1.0.0-2.jpg)
 
+![](ch32v203-promicro-v1.0.0-pinout.png)
+
 - BOOTH 販売ページ
 - 回路図 Semantics [ch32v203-promicro-v1.0.0-semantics.pdf](ch32v203-promicro-v1.0.0-semantics.pdf)
 - PCB [ch32v203-promicro-v1.0.0-pcb.pdf](ch32v203-promicro-v1.0.0-pcb.pdf)
@@ -35,4 +37,4 @@
 | Y1        | 3215 Crystal 32.768kHz            | 1   |
 | Y2        | 3225 Crystal 8MB                  | 1   |
 
-![](ch32v203micro-v1.0.0-parts.png)
+![](ch32v203-promicro-v1.0.0-parts.png)

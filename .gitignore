@@ -1,3 +1,7 @@
+*.gbr
+*.gbrjob
+*.drl
+*.zip
 production
 *.000
 *.bak

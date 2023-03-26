@@ -10,7 +10,7 @@
 - ProMicro を再現するには、CH32V003 は GPIO の数が足りないため、19 Pin を R5 0R で GND 接続するようにしています。
 - MCU の VCC は 3.3V になっていますが、JP1 を接続し、U2 3.3V レギュレータを外すことで、5V にすることができます。
 
-## ピン配置 Pin Out
+### ピン配置 Pin Out
 
 ![Alt text](ch32v003-promicro-pinout-v1.0.1.png)
 
@@ -32,3 +32,8 @@
 | Y1        | 3225 4Pin Crystal 24MHz (NC)     |
 | J1        | SMD USB-C 2.0 Socket             |
 | SW1       | SKRPABE010 SMD Push Switch       |
+
+### Data Sheet
+
+- [Semantics v1.0.1](ch32v003-promicro-semantics-v1.0.1.pdf)
+- [PCB v1.0.1](ch32v003-promicro-pcb-v1.0.1.pdf)

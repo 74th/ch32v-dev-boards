@@ -1,5 +1,9 @@
 # RISC-V MCU CH32V203 ProMicro サイズ開発ボード (ProMicro sized Dev Board)
 
+Please refer to [x32promicro](https://github.com/74th/x32promicro) repository for the latest version.
+
+最新版は[x32promicro](https://github.com/74th/x32promicro)のリポジトリを参照ください。
+
 ## X32Micro v1.1.0
 
 ### 部品表 Parts List

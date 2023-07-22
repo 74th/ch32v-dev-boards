@@ -20,7 +20,7 @@
 | --------- | -------------------------------- |
 | R1        | 0805 Register 10k                |
 | R2,R3     | 0805 Register 5.1kR              |
-| R4        | 0805 Register 200R               |
+| R4        | 0805 Register 200R or 1kR        |
 | R5        | 0805 Register 0R                 |
 | C1,C2,C3  | 0805 Capacitor 100nF             |
 | C4,C5     | 0805 Capacitor 22p (NC)          |

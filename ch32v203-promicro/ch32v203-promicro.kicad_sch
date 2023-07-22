@@ -1,4 +1,4 @@
-(kicad_sch (version 20221206) (generator eeschema)
+(kicad_sch (version 20230121) (generator eeschema)
 
   (uuid afcc1797-22e9-4a4e-a23b-4101109b7b33)
 
@@ -1185,7 +1185,6 @@
       )
     )
   )
-
 
   (junction (at 110.49 48.26) (diameter 0) (color 0 0 0 0)
     (uuid 16fd9ae6-5dbd-4e9d-aeb3-e6ab5ccbe531)

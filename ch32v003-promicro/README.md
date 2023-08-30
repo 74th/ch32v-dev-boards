@@ -2,7 +2,9 @@
 
 <img src="ch32v003-promicro-photo-v1.0.1.jpg" width="400" />
 
-## CH32V003ProMicro v1.0.1
+## CH32V003ProMicro v1.1.0
+
+### features
 
 ### features
 

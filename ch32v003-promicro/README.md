@@ -22,8 +22,8 @@ v1.0.1 から差分。
 
 ### DataSheet
 
-- Semantics [PDF](ch32v003-promicro-semantics-v1.1.1.pdf) [kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fch32v-dev-boards%2Fblob%2Fch32v003promicro%2F1.1.1%2Fch32v003-promicro%2Fch32v003-promicro.kicad_sch)
-- PCB [PDF](ch32v003-promicro-pcb-v1.1.1.pdf) [kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fch32v-dev-boards%2Fblob%2Fch32v003promicro%2F1.1.1%2Fch32v003-promicro%2Fch32v003-promicro.kicad_pcb)
+- Semantics [PDF](ch32v003-promicro-semantics-v1.1.0.pdf) [kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fch32v-dev-boards%2Fblob%2Fch32v003promicro%2F1.1.0%2Fch32v003-promicro%2Fch32v003-promicro.kicad_sch)
+- PCB [PDF](ch32v003-promicro-pcb-v1.1.0.pdf) [kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fch32v-dev-boards%2Fblob%2Fch32v003promicro%2F1.1.0%2Fch32v003-promicro%2Fch32v003-promicro.kicad_pcb)
 
 ### BOM
 

@@ -37,7 +37,7 @@ v1.0.1 から差分。
 | J2 | Box Pin Header 2x5 Pitch 1.27mm | 1 |
 | JP1 | Jumper SolderJumper_2_Open | 1 |
 | R1, R9, R10 | Register 0805 10kΩ | 3 |
-| R2 | Register 0805 54kΩ | 1 |
+| R2 | Register 0805 54-56kΩ | 1 |
 | R3, R4 | Register 0805 5.1kΩ | 2 |
 | R5 | Register 0805 1.5kΩ (NC) | 1 |
 | R6, R7 | Register 0805 27.4Ω (NC) | 2 |

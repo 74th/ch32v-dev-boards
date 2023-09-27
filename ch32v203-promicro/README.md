@@ -4,6 +4,10 @@ Please refer to [x32promicro](https://github.com/74th/x32promicro) repository fo
 
 最新版は[x32promicro](https://github.com/74th/x32promicro)のリポジトリを参照ください。
 
+
+## CH32V203Micro v1.2.1
+
+- semantics [PDF](./ch32v203-promicro-v1.2.1.pdf)
 ## X32Micro v1.1.0
 
 ### 部品表 Parts List
@@ -38,6 +42,7 @@ Please refer to [x32promicro](https://github.com/74th/x32promicro) repository fo
   - R2 は未実装 NC にしてください
   - R8 を実装してください
   - JP1 の中央のランドを + マークにジャンパしてください
+
 
 ## CH32V203Micro v1.0.0
 

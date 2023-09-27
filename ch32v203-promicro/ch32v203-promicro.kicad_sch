@@ -6,7 +6,7 @@
 
   (title_block
     (title "CH32V203Micro")
-    (rev "1.2.0")
+    (rev "1.2.1")
     (company "74th")
   )
 
@@ -1869,7 +1869,7 @@
   (symbol (lib_id "Device:C") (at 154.94 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 10f9572a-6288-4c82-8814-e48c6f003451)
-    (property "Reference" "C11" (at 158.75 38.1 0)
+    (property "Reference" "C3" (at 158.75 38.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 158.75 40.64 0)
@@ -1886,7 +1886,7 @@
     (instances
       (project "ch32v203-promicro"
         (path "/afcc1797-22e9-4a4e-a23b-4101109b7b33"
-          (reference "C11") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -1920,7 +1920,7 @@
   (symbol (lib_id "Device:R") (at 260.35 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 147c7672-da6d-4d35-b258-1722de507206)
-    (property "Reference" "R1" (at 262.89 31.75 0)
+    (property "Reference" "R3" (at 262.89 31.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 262.89 34.29 0)
@@ -1937,7 +1937,7 @@
     (instances
       (project "ch32v203-promicro"
         (path "/afcc1797-22e9-4a4e-a23b-4101109b7b33"
-          (reference "R1") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -1946,7 +1946,7 @@
   (symbol (lib_id "Device:C") (at 102.87 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 14ed74d4-0c4d-4835-b05c-faed62dadd13)
-    (property "Reference" "C1" (at 106.68 38.0999 0)
+    (property "Reference" "C5" (at 106.68 38.0999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 106.68 40.6399 0)
@@ -1963,7 +1963,7 @@
     (instances
       (project "ch32v203-promicro"
         (path "/afcc1797-22e9-4a4e-a23b-4101109b7b33"
-          (reference "C1") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -2222,7 +2222,7 @@
   (symbol (lib_id "Device:R") (at 248.92 73.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 31172882-2213-470c-9164-150eed268297)
-    (property "Reference" "R2" (at 248.92 67.31 90)
+    (property "Reference" "R4" (at 248.92 67.31 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "27.4" (at 248.92 69.85 90)
@@ -2239,7 +2239,7 @@
     (instances
       (project "ch32v203-promicro"
         (path "/afcc1797-22e9-4a4e-a23b-4101109b7b33"
-          (reference "R2") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -2273,7 +2273,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 30.48 71.12 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3baf2968-8fe9-4d54-b597-7ac5f31a0660)
-    (property "Reference" "SW2" (at 34.29 69.85 90)
+    (property "Reference" "SW1" (at 34.29 69.85 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SW_Push" (at 34.29 72.39 90)
@@ -2290,7 +2290,7 @@
     (instances
       (project "ch32v203-promicro"
         (path "/afcc1797-22e9-4a4e-a23b-4101109b7b33"
-          (reference "SW2") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
     )
@@ -2299,7 +2299,7 @@
   (symbol (lib_id "Device:C") (at 140.97 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e5b9e9c-4fd2-43c4-bb9d-e652527da41a)
-    (property "Reference" "C7" (at 144.78 38.0999 0)
+    (property "Reference" "C4" (at 144.78 38.0999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 144.78 40.6399 0)
@@ -2316,7 +2316,7 @@
     (instances
       (project "ch32v203-promicro"
         (path "/afcc1797-22e9-4a4e-a23b-4101109b7b33"
-          (reference "C7") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -2425,7 +2425,7 @@
   (symbol (lib_id "Device:C") (at 223.52 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 52f5fab5-a3b1-4001-a26e-1f9938b3600a)
-    (property "Reference" "C4" (at 227.33 31.7499 0)
+    (property "Reference" "C1" (at 227.33 31.7499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 227.33 34.2899 0)
@@ -2442,7 +2442,7 @@
     (instances
       (project "ch32v203-promicro"
         (path "/afcc1797-22e9-4a4e-a23b-4101109b7b33"
-          (reference "C4") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -2477,7 +2477,7 @@
   (symbol (lib_id "Device:R") (at 30.48 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5790474e-1e9f-4ece-9bb6-d704d535b546)
-    (property "Reference" "R7" (at 33.02 93.9799 0)
+    (property "Reference" "R6" (at 33.02 93.9799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 33.02 96.5199 0)
@@ -2494,7 +2494,7 @@
     (instances
       (project "ch32v203-promicro"
         (path "/afcc1797-22e9-4a4e-a23b-4101109b7b33"
-          (reference "R7") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -2503,7 +2503,7 @@
   (symbol (lib_id "Device:C") (at 250.19 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5b549648-3aa6-41f0-ac47-3826d306b290)
-    (property "Reference" "C5" (at 254 31.75 0)
+    (property "Reference" "C2" (at 254 31.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 254 34.29 0)
@@ -2520,7 +2520,7 @@
     (instances
       (project "ch32v203-promicro"
         (path "/afcc1797-22e9-4a4e-a23b-4101109b7b33"
-          (reference "C5") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -2580,7 +2580,7 @@
   (symbol (lib_id "Device:R") (at 30.48 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 699906d8-3ec8-4cc3-b5b2-6764b7d0c17b)
-    (property "Reference" "R8" (at 33.02 78.7399 0)
+    (property "Reference" "R7" (at 33.02 78.7399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 33.02 81.2799 0)
@@ -2597,7 +2597,7 @@
     (instances
       (project "ch32v203-promicro"
         (path "/afcc1797-22e9-4a4e-a23b-4101109b7b33"
-          (reference "R8") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -2681,7 +2681,7 @@
   (symbol (lib_id "$74th:CH213K-Ideal_Diode_for_USB_Power") (at 209.55 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8704f764-dd4a-410d-a7e5-c39209d7ec17)
-    (property "Reference" "U4" (at 210.185 22.86 0)
+    (property "Reference" "U3" (at 210.185 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "CH213K" (at 210.185 25.4 0)
@@ -2699,7 +2699,7 @@
     (instances
       (project "ch32v203-promicro"
         (path "/afcc1797-22e9-4a4e-a23b-4101109b7b33"
-          (reference "U4") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -2708,7 +2708,7 @@
   (symbol (lib_id "Regulator_Linear:AMS1117-3.3") (at 240.03 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8cd6cd84-cf40-4f79-a922-278f86c114b0)
-    (property "Reference" "U2" (at 240.03 21.59 0)
+    (property "Reference" "U1" (at 240.03 21.59 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AMS1117-3.3" (at 240.03 24.13 0)
@@ -2726,7 +2726,7 @@
     (instances
       (project "ch32v203-promicro"
         (path "/afcc1797-22e9-4a4e-a23b-4101109b7b33"
-          (reference "U2") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -2735,7 +2735,7 @@
   (symbol (lib_id "Device:C") (at 115.57 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a4406f86-7cc5-41b8-97dc-31e6c83cbb67)
-    (property "Reference" "C2" (at 119.38 38.0999 0)
+    (property "Reference" "C7" (at 119.38 38.0999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 119.38 40.6399 0)
@@ -2752,7 +2752,7 @@
     (instances
       (project "ch32v203-promicro"
         (path "/afcc1797-22e9-4a4e-a23b-4101109b7b33"
-          (reference "C2") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -2761,7 +2761,7 @@
   (symbol (lib_id "$74th:ProMicro-RightPin") (at 240.03 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a4498a4d-3e70-47d7-a86a-b5be8647d4b9)
-    (property "Reference" "J6" (at 243.205 123.19 0)
+    (property "Reference" "J3" (at 243.205 123.19 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ProMicro-RightPin" (at 243.205 125.73 0)
@@ -2788,7 +2788,7 @@
     (instances
       (project "ch32v203-promicro"
         (path "/afcc1797-22e9-4a4e-a23b-4101109b7b33"
-          (reference "J6") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -2797,7 +2797,7 @@
   (symbol (lib_id "Device:C") (at 128.27 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a8d82d90-b2ed-4aa0-9ebf-4d12e64329b8)
-    (property "Reference" "C3" (at 132.08 38.0999 0)
+    (property "Reference" "C6" (at 132.08 38.0999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 132.08 40.6399 0)
@@ -2814,7 +2814,7 @@
     (instances
       (project "ch32v203-promicro"
         (path "/afcc1797-22e9-4a4e-a23b-4101109b7b33"
-          (reference "C3") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -2903,7 +2903,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 24.13 50.8 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c1783247-586e-47e1-a27f-56787e0d5cb4)
-    (property "Reference" "SW1" (at 27.94 50.165 90)
+    (property "Reference" "SW2" (at 27.94 50.165 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SW_Push" (at 27.94 52.705 90)
@@ -2920,7 +2920,7 @@
     (instances
       (project "ch32v203-promicro"
         (path "/afcc1797-22e9-4a4e-a23b-4101109b7b33"
-          (reference "SW1") (unit 1)
+          (reference "SW2") (unit 1)
         )
       )
     )
@@ -2979,7 +2979,7 @@
   (symbol (lib_id "Device:Crystal_GND24") (at 146.05 132.08 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c74f931d-165a-4d8e-ac35-db57a47886df)
-    (property "Reference" "Y2" (at 152.4 127.381 90)
+    (property "Reference" "Y1" (at 152.4 127.381 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "8M" (at 152.4 129.921 90)
@@ -2998,7 +2998,7 @@
     (instances
       (project "ch32v203-promicro"
         (path "/afcc1797-22e9-4a4e-a23b-4101109b7b33"
-          (reference "Y2") (unit 1)
+          (reference "Y1") (unit 1)
         )
       )
     )
@@ -3032,7 +3032,7 @@
   (symbol (lib_id "Device:R") (at 242.57 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cc4162ec-d741-44ad-9e2b-458fde749dcb)
-    (property "Reference" "R5" (at 245.11 93.9799 0)
+    (property "Reference" "R1" (at 245.11 93.9799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1k" (at 245.11 96.5199 0)
@@ -3049,7 +3049,7 @@
     (instances
       (project "ch32v203-promicro"
         (path "/afcc1797-22e9-4a4e-a23b-4101109b7b33"
-          (reference "R5") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -3083,7 +3083,7 @@
   (symbol (lib_id "Device:C") (at 41.91 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d49c9ff2-d580-46a8-8cec-1b3e8cb74ecd)
-    (property "Reference" "C6" (at 45.72 48.2599 0)
+    (property "Reference" "C8" (at 45.72 48.2599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 45.72 50.7999 0)
@@ -3100,7 +3100,7 @@
     (instances
       (project "ch32v203-promicro"
         (path "/afcc1797-22e9-4a4e-a23b-4101109b7b33"
-          (reference "C6") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -3109,7 +3109,7 @@
   (symbol (lib_id "Device:R") (at 248.92 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e1b64481-0a65-45cc-934f-71222985feb2)
-    (property "Reference" "R9" (at 248.92 77.47 90)
+    (property "Reference" "R5" (at 248.92 77.47 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "27.4" (at 248.92 80.01 90)
@@ -3126,7 +3126,7 @@
     (instances
       (project "ch32v203-promicro"
         (path "/afcc1797-22e9-4a4e-a23b-4101109b7b33"
-          (reference "R9") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -3135,7 +3135,7 @@
   (symbol (lib_id "$74th:STM32F103C8T6") (at 101.6 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ee39b281-084d-4164-b157-92eb7d165b8d)
-    (property "Reference" "U1" (at 107.3659 137.16 0)
+    (property "Reference" "U2" (at 107.3659 137.16 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CH32V203C8T6" (at 107.3659 139.7 0)
@@ -3198,7 +3198,7 @@
     (instances
       (project "ch32v203-promicro"
         (path "/afcc1797-22e9-4a4e-a23b-4101109b7b33"
-          (reference "U1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -3308,7 +3308,7 @@
   (symbol (lib_id "$74th:ProMicro-LeftPin-NoGND") (at 219.71 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f86623bf-c88c-4c71-bb0c-d09147e38ddf)
-    (property "Reference" "J5" (at 218.44 121.92 0)
+    (property "Reference" "J2" (at 218.44 121.92 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ProMicro-LeftPin-NoGND" (at 207.01 125.73 0)
@@ -3335,7 +3335,7 @@
     (instances
       (project "ch32v203-promicro"
         (path "/afcc1797-22e9-4a4e-a23b-4101109b7b33"
-          (reference "J5") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -3344,7 +3344,7 @@
   (symbol (lib_id "Device:R") (at 252.73 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9748d51-4674-4e56-8d20-0db07869f3a2)
-    (property "Reference" "R4" (at 255.27 93.9799 0)
+    (property "Reference" "R2" (at 255.27 93.9799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1k" (at 255.27 96.5199 0)
@@ -3361,7 +3361,7 @@
     (instances
       (project "ch32v203-promicro"
         (path "/afcc1797-22e9-4a4e-a23b-4101109b7b33"
-          (reference "R4") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )

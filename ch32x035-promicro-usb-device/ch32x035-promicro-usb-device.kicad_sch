@@ -1910,7 +1910,7 @@
     (property "Reference" "R3" (at 189.23 130.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100k" (at 189.23 133.35 0)
+    (property "Value" "56k" (at 189.23 133.35 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "74th:Register_0603_1608" (at 184.912 132.08 90)

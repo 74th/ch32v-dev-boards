@@ -12,6 +12,41 @@
 - ProMicro を再現するには、CH32V003 は GPIO の数が足りないため、19 Pin（20/A2） を R5 0R で GND 接続するようにしています。
 - MCU の VCC は 3.3V になっていますが、JP1 を接続し、U2 3.3V レギュレータを外すことで、5V にすることができます。
 
+## CH32V003ProMicro v1.2.0
+
+v1.1.0 からの差分。部品点数が減ってちょっと安くなりました。
+
+- 電源保護 IC を、CH217K から CH213K に変更
+
+### DataSheet
+
+- Semantics [PDF](ch32v003-promicro-semantics-v1.2.0.pdf) [kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fch32v-dev-boards%2Fblob%2Fch32v003promicro%2F1.2.0%2Fch32v003-promicro%2Fch32v003-promicro.kicad_sch)
+- PCB [kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fch32v-dev-boards%2Fblob%2Fch32v003promicro%2F1.2.0%2Fch32v003-promicro%2Fch32v003-promicro.kicad_pcb)
+
+### ピン配置 Pin Out
+
+![Alt text](ch32v003-promicro-pinout-v1.1.0.png)
+
+### BOM
+
+| Reference | Name                              | Quantity |
+| --------- | --------------------------------- | -------- |
+| C1, C2    | Capacitor 0805 10uF               | 2        |
+| C3-C5     | Capacitor 0805 100nF              | 3        |
+| C6        | Capacitor 0805 1uF                | 1        |
+| D1        | LED 0805 Blue                     | 1        |
+| J1        | USB Type-C Receptacle             | 1        |
+| J2        | Box Pin Header 2x5 Pitch 1.27mm   | 1        |
+| JP1       | Jumper SolderJumper_2_Open        | 1        |
+| R3, R4    | Register 0805 5.1kΩ               | 2        |
+| R5        | Register 0805 1.5kΩ (NC)          | 1        |
+| R6, R7    | Register 0805 27.4Ω (NC)          | 2        |
+| R8        | Register 0805 0Ω                  | 1        |
+| R9, R10   | Register 0805 10kΩ                | 2        |
+| SW1       | Button SKRPABE010                 | 1        |
+| U1        | Regulator 3.3V SOT-89 AMS1117-3.3 | 1        |
+| U2        | MCU TSSOP20 WCH CH32V003F4P6      | 1        |
+
 ## CH32V003ProMicro v1.1.0
 
 v1.0.1 から差分。

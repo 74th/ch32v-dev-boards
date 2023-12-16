@@ -36,7 +36,7 @@ v1.1.0 からの差分。部品点数が減ってちょっと安くなりまし�
 | C6        | Capacitor 0805 1uF                | 1        |
 | D1        | LED 0805 Blue                     | 1        |
 | J1        | USB Type-C Receptacle             | 1        |
-| J2        | Box Pin Header 2x5 Pitch 1.27mm   | 1        |
+| J2        | Pin Header 2x5 Pitch 1.27mm       | 1        |
 | JP1       | Jumper SolderJumper_2_Open        | 1        |
 | R3, R4    | Register 0805 5.1kΩ               | 2        |
 | R5        | Register 0805 1.5kΩ (NC)          | 1        |

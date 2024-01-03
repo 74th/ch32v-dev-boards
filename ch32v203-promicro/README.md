@@ -65,7 +65,7 @@
 | C1, C2     | Capacitor 0805 10uF                   | 2        |
 | C3         | Capacitor 0805 1uF                    | 1        |
 | C4-C8      | Capacitor 0805 100nF                  | 5        |
-| C9, C10    | Capacitor 0805 22pF                   | 2        |
+| C9, C10    | Capacitor 0805 10-22pF                | 2        |
 | D1         | LED 0805 BLUE                         | 1        |
 | J1         | USB Type-C Receptacle                 | 1        |
 | R1, R2     | Register 0805 5.1kΩ                   | 2        |

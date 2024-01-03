@@ -2,7 +2,8 @@
 
 <img src="ch32v203-promicro-v1.2.1.jpg" width="400" />
 
-- [CH32V203 での開発"方法について](#CH32V203-の開発方法)
+- [CH32V203 での開発方法について](#CH32V203-の開発方法)
+- キット販売ページ(BOOTH) https://74th.booth.pm/items/4492691
 
 # 仕様
 

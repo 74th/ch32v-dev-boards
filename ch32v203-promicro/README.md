@@ -70,7 +70,7 @@
 | J1         | USB Type-C Receptacle                 | 1        |
 | R1, R2     | Register 0805 5.1kΩ                   | 2        |
 | R3, R6, R7 | Register 0805 10kΩ                    | 3        |
-| R4, R5     | Register 0805 27.4Ω                   | 2        |
+| R4, R5     | Register 0805 27Ω                     | 2        |
 | SW1, SW2   | Button SKRPABE010                     | 2        |
 | U1         | Regulator 3.3V SOT-89 AMS1117-3.3     | 1        |
 | U2         | MCU LQFP48 WCH CH32V203C8T6           | 1        |

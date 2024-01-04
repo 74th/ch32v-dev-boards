@@ -1,6 +1,6 @@
 # RISC-V MCU CH32V203 ProMicro サイズ開発ボード (ProMicro sized Dev Board)
 
-<img src="ch32v203-promicro-v1.2.1.jpg" width="50%" />
+<img src="docs/ch32v203-promicro-v1.2.1.jpg" width="50%" />
 
 - [CH32V203 での開発方法について](#CH32V203-の開発方法)
 - キット販売ページ(BOOTH) https://74th.booth.pm/items/4492691
@@ -27,12 +27,12 @@
 
 ## CH32V203Micro v1.2.1
 
-- semantics [PDF](./ch32v203-promicro-v1.2.1.pdf) [Kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fch32v-dev-boards%2Fblob%2Fch32v203promicro%2F1.2.1%2Fch32v203-promicro%2Fch32v203-promicro.kicad_sch)
+- semantics [PDF](./docs/ch32v203-promicro-v1.2.1.pdf) [Kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fch32v-dev-boards%2Fblob%2Fch32v203promicro%2F1.2.1%2Fch32v203-promicro%2Fch32v203-promicro.kicad_sch)
 - PCB [Kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fch32v-dev-boards%2Fblob%2Fch32v203promicro%2F1.2.1%2Fch32v203-promicro%2Fch32v203-promicro.kicad_pcb)
 
 ### Pin Map
 
-![Pin Map](ch32v203-promicro-v1.2.0-pinmap.png)
+![Pin Map](docs/ch32v203-promicro-v1.2.0-pinmap.png)
 
 ### new feature
 
@@ -118,13 +118,13 @@ Please see [https://github.com/74th/x32promicro?tab=readme-ov-file#x32micro-v120
 
 ## CH32V203Micro v1.0.0
 
-<img src="ch32v203-promicro-v1.0.0-0.jpg" width="50%"/>
+<img src="docs/ch32v203-promicro-v1.0.0-0.jpg" width="50%"/>
 
-![](ch32v203-promicro-v1.0.0-pinout.png)
+![](docs/ch32v203-promicro-v1.0.0-pinout.png)
 
 - BOOTH 販売ページ
-- 回路図 Semantics [ch32v203-promicro-v1.0.0-semantics.pdf](ch32v203-promicro-v1.0.0-semantics.pdf)
-- PCB [ch32v203-promicro-v1.0.0-pcb.pdf](ch32v203-promicro-v1.0.0-pcb.pdf)
+- 回路図 Semantics [docs/ch32v203-promicro-v1.0.0-semantics.pdf](docs/ch32v203-promicro-v1.0.0-semantics.pdf)
+- PCB [docs/ch32v203-promicro-v1.0.0-pcb.pdf](docs/ch32v203-promicro-v1.0.0-pcb.pdf)
 
 ### 部品表 Parts List
 
@@ -149,7 +149,7 @@ Please see [https://github.com/74th/x32promicro?tab=readme-ov-file#x32micro-v120
 | Y1        | 3215 Oscillator 32.768kHz         | 1   |
 | Y2        | 3225 Oscillator 8MB               | 1   |
 
-![](ch32v203-promicro-v1.0.0-parts.png)
+![](docs/ch32v203-promicro-v1.0.0-parts.png)
 
 # CH32V203 の開発方法
 

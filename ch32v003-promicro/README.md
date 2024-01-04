@@ -1,6 +1,6 @@
 # WCH CH32V003 ProMicro サイズ開発ボード
 
-<img src="ch32v003-promicro-photo-v1.0.1.jpg" width="400" />
+<img src="docs/ch32v003-promicro-photo-v1.0.1.jpg" width="400" />
 
 ## features
 
@@ -20,12 +20,12 @@ v1.1.0 からの差分。部品点数が減ってちょっと安くなりまし�
 
 ### DataSheet
 
-- Semantics [PDF](ch32v003-promicro-semantics-v1.2.0.pdf) [kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fch32v-dev-boards%2Fblob%2Fch32v003promicro%2F1.2.0%2Fch32v003-promicro%2Fch32v003-promicro.kicad_sch)
+- Semantics [PDF](docs/ch32v003-promicro-semantics-v1.2.0.pdf) [kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fch32v-dev-boards%2Fblob%2Fch32v003promicro%2F1.2.0%2Fch32v003-promicro%2Fch32v003-promicro.kicad_sch)
 - PCB [kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fch32v-dev-boards%2Fblob%2Fch32v003promicro%2F1.2.0%2Fch32v003-promicro%2Fch32v003-promicro.kicad_pcb)
 
 ### ピン配置 Pin Out
 
-![Alt text](ch32v003-promicro-pinout-v1.1.0.png)
+![Alt text](docs/ch32v003-promicro-pinout-v1.1.0.png)
 
 ### BOM
 
@@ -62,7 +62,7 @@ v1.0.1 から差分。
 
 ### ピン配置 Pin Out
 
-![Alt text](ch32v003-promicro-pinout-v1.1.0.png)
+![Alt text](docs/ch32v003-promicro-pinout-v1.1.0.png)
 
 ### BOM
 
@@ -103,7 +103,7 @@ v1.0.1 から差分。
 
 ### ピン配置 Pin Out
 
-![Alt text](ch32v003-promicro-pinout-v1.0.1.png)
+![Alt text](docs/ch32v003-promicro-pinout-v1.0.1.png)
 
 ### 部品表 Parts List
 

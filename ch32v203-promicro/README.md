@@ -10,13 +10,14 @@
 - Uses RISC-V CH32V203C8T6, resembling STM32.
 - Pin configuration with functions similar to ProMicro (UART, I2C, SPI, ADC).
 - By pressing the BOOT button while pressing RESET, it enters a mode that allows writing via USB.
+- USB1DM/DP already wired to USB Port(USB2 not wired).
 
 🇯🇵
 
 - STM32 に似せた RISC-V CH32V203C8T6 を使用
 - ProMicro に近い機能のピン配置（UART、I2C、SPI、ADC）
 - BOOT ボタンを押しながら RESET を押すことで、USB で書き込みできるモードに入る
-- USB には、USB1DM/DP を配線済みです。
+- USB には、USB1DM/DP を配線済み
 
 # How to use 使い方
 
@@ -229,3 +230,4 @@ CH32V203 は、RV32IMAC に独自拡張命令を含んだ RV32IMACXW という�
 ## 参考
 
 - WCH の RISC-V MCU CH32V203 を Rust で L チカする https://74th.hateblo.jp/entry/2022/12/22/223956
+- VSCode+PlatformIO で RISC-V CH32V203 マイコンの開発環境を構築 https://zenn.dev/usagi1975/articles/2023-09-30-0002_ch32v-platformio

@@ -1,15 +1,9 @@
-# RISC-V MCU CH32V203 ProMicro サイズ開発ボード (ProMicro sized Dev Board)
+# RISC-V MCU CH32V203 ProMicro Sized Dev Board
 
 <img src="docs/ch32v203-promicro-v1.2.1.jpg" width="50%" />
 
 - [CH32V203 での開発方法について](#CH32V203-の開発方法)
 - キット販売ページ(BOOTH) https://74th.booth.pm/items/4492691
-
-# 仕様
-
-- CH32V203ProMicro v1.2.1 では、BOOT ボタンがあり、RESET を押しながら BOOT ボタンを押すことで、USB 経由で書き込めるモードになります。
-- 左側の GND を、SWDIO、SWCLK に変更しています。こちらから WCH-Link を用いることで書き込みができるようになります。
-- USB には、USB DM/DP を配線済みです。
 
 # main features
 
@@ -22,6 +16,17 @@
 - STM32 に似せた RISC-V CH32V203C8T6 を使用
 - ProMicro に近い機能のピン配置（UART、I2C、SPI、ADC）
 - BOOT ボタンを押しながら RESET を押すことで、USB で書き込みできるモードに入る
+- USB には、USB1DM/DP を配線済みです。
+
+# How to use 使い方
+
+- There is a BOOT button, and by pressing the BOOT button while holding down RESET(RST), the mode is set to write via USB.
+- GND on the left side is changed to SWDIO and SWCLK. Connect WCH-Link to GND, SWDIO, and SWCLK.
+
+🇯🇵
+
+- BOOT ボタンがあり、RESET を押しながら BOOT ボタンを押すことで、USB 経由で書き込めるモードになります。
+- 左側の GND を、SWDIO、SWCLK に変更しています。こちらから WCH-Link を用いることで書き込みができるようになります。WCH-Link と GND、SWDIO、SWCLK を接続してください。
 
 # Documents
 

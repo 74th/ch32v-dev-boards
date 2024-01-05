@@ -201,6 +201,12 @@ wlink flash release/ch32v203c8t6.elf
 
 ## CH32V203 の開発環境
 
+PlatformIO(VS Code)を使った開発の方法を記事にしています
+
+> WCHのRISC-VマイコンCH32Vを公式SDKを使って、VS CodeのPlatformIOで開発する - @74thの制作ログ
+>
+> https://74th.hateblo.jp/entry/ch32v-platformio
+
 CH32V203 の開発フレームワークとして以下が利用可能です。
 
 - 公式 SDK: https://github.com/openwch/ch32v20x/tree/main/C%2B%2B/Use%20MRS%20Create%20C%2B%2B%20project-example/CH32V203C8T6%2B%2B

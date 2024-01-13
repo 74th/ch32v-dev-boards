@@ -19,7 +19,8 @@ CH32V203 は低価格ながら USB デバイス機能を持っています。
 - ボタン: リセット、BOOT0 制御ボタン
 - その他: 外部発振器搭載済み、低電力発振器非搭載
 - ピン配置図
-  ＜ここに 74th-ch32v203-promicro-like-pinmap.png をお願いします＞
+
+<img src="./docs/ch32v203-promicro-v1.2.0-pinmap.png" width="400">
 
 ## ファームウェアの書き換え方法
 

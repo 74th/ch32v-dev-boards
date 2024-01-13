@@ -2,6 +2,12 @@
 
 <img src="docs/ch32v203-promicro-v1.2.1.jpg" width="50%" />
 
+The contents of this page include the KiCad files in this repository, as well as kits sold by Booth and finished products sold by Switch Science.
+
+Please check [Documents](#documents) for schematics, bill of materials, pin maps, etc.
+
+🇯🇵
+
 本ページのコンテンツは、本リポジトリの KiCad ファイル、及び Booth 販売品のキット、スイッチサイエンスでの完成品販売の内容が含まれています。
 
 回路図、部品表、ピンマップ等については、[Documents](#documents)を確認ください。

@@ -203,7 +203,7 @@ wlink flash release/ch32v203c8t6.elf
 
 PlatformIO(VS Code)を使った開発の方法を記事にしています
 
-> WCHのRISC-VマイコンCH32Vを公式SDKを使って、VS CodeのPlatformIOで開発する - @74thの制作ログ
+> WCH の RISC-V マイコン CH32V を公式 SDK を使って、VS Code の PlatformIO で開発する - @74th の制作ログ
 >
 > https://74th.hateblo.jp/entry/ch32v-platformio
 
@@ -233,7 +233,20 @@ CH32V203 の開発フレームワークとして以下が利用可能です。
 
 CH32V203 は、RV32IMAC に独自拡張命令を含んだ RV32IMACXW という命令セットを使っています。そのため、公式が提供する GCC でないと正常にコンパイルできないことがあります。
 
-## 参考
+## 開発方法についてのブログ記事等情報
 
+### 74th のブログ記事
+
+- WCH の RISC-V マイコン CH32V を公式 SDK を使って、VS Code の PlatformIO で開発する https://74th.hateblo.jp/entry/ch32v-platformio
 - WCH の RISC-V MCU CH32V203 を Rust で L チカする https://74th.hateblo.jp/entry/2022/12/22/223956
+
+### その他記事
+
+- オープンソースツールチェインでの CH32V の開発方法（英語） https://github.com/cjacker/opensource-toolchain-ch32v
 - VSCode+PlatformIO で RISC-V CH32V203 マイコンの開発環境を構築 https://zenn.dev/usagi1975/articles/2023-09-30-0002_ch32v-platformio
+
+## 公式ドキュメント
+
+- データシート https://www.wch-ic.com/downloads/CH32V20x_30xDS0_PDF.html
+- リファレンスマニュアル https://www.wch-ic.com/downloads/CH32FV2x_V3xRM_PDF.html
+- C/C++ SDK https://github.com/openwch/ch32v20x/tree/main/C%2B%2B/Use%20MRS%20Create%20C%2B%2B%20project-example/CH32V203C8T6%2B%2B

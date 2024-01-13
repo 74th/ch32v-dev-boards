@@ -2,6 +2,10 @@
 
 <img src="docs/ch32v203-promicro-v1.2.1.jpg" width="50%" />
 
+本ページのコンテンツは、本リポジトリの KiCad ファイル、及び Booth 販売品のキット、スイッチサイエンスでの完成品販売の内容が含まれています。
+
+回路図、部品表、ピンマップ等については、[Documents](#documents)を確認ください。
+
 - [CH32V203 での開発方法について](#CH32V203-の開発方法)
 - キット販売ページ(BOOTH) https://74th.booth.pm/items/4492691
 

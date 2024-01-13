@@ -255,7 +255,7 @@ CH32V203 は、RV32IMAC に独自拡張命令を含んだ RV32IMACXW という�
 - オープンソースツールチェインでの CH32V の開発方法（英語） https://github.com/cjacker/opensource-toolchain-ch32v
 - VSCode+PlatformIO で RISC-V CH32V203 マイコンの開発環境を構築 https://zenn.dev/usagi1975/articles/2023-09-30-0002_ch32v-platformio
 
-## 公式ドキュメント
+### 公式ドキュメント
 
 - データシート https://www.wch-ic.com/downloads/CH32V20x_30xDS0_PDF.html
 - リファレンスマニュアル https://www.wch-ic.com/downloads/CH32FV2x_V3xRM_PDF.html

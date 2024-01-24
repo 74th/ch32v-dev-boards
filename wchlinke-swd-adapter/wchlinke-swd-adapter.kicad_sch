@@ -4,6 +4,11 @@
 
   (paper "A4")
 
+  (title_block
+    (title "WCH-LinkE SWD Adapter")
+    (rev "v1.0.0")
+  )
+
   (lib_symbols
     (symbol "74th_Interface:SWD_10Pin_Debugger-Side" (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 7.62 0)

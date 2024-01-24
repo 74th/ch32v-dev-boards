@@ -2,6 +2,8 @@
 
 WCH-LinkE をハーフピッチ SWD UART 付きインターフェイスに変換するアダプタです。VCC から 3.3V 取り出されます。
 
+<img src="./photo-v1.0.0.jpeg" width="400"/>
+
 74th の CH32V003 等の開発ボードにはこのポートが付いています。
 
 ![](./pins.png)

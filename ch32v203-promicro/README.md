@@ -41,10 +41,14 @@ Please check [Documents](#documents) for schematics, bill of materials, pin maps
 
 # Documents
 
-## CH32V203Micro v1.2.1
+## CH32V203Micro v1.2.1-2
+
+- v1.2.2 と v1.2.1 の違いは利用した KiCad バージョンの更新と、若干のフットプリントの修正で、部品表、機能に違いはありません。
 
 - semantics [PDF](./docs/ch32v203-promicro-v1.2.1.pdf) [Kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fch32v-dev-boards%2Fblob%2Fch32v203promicro%2F1.2.1%2Fch32v203-promicro%2Fch32v203-promicro.kicad_sch)
-- PCB [Kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fch32v-dev-boards%2Fblob%2Fch32v203promicro%2F1.2.1%2Fch32v203-promicro%2Fch32v203-promicro.kicad_pcb)
+- PCB
+  - 1.2.1 [Kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fch32v-dev-boards%2Fblob%2Fch32v203promicro%2F1.2.1%2Fch32v203-promicro%2Fch32v203-promicro.kicad_pcb)
+  - 1.2.2 [Kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fch32v-dev-boards%2Fblob%2Fch32v203promicro%2F1.2.2%2Fch32v203-promicro%2Fch32v203-promicro.kicad_pcb)
 
 ### Pin Map
 

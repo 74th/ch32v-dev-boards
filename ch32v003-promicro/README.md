@@ -1,20 +1,30 @@
 # WCH CH32V003 ProMicro サイズ開発ボード
 
-<img src="docs/ch32v003-promicro-photo-v1.0.1.jpg" width="400" />
+<img src="docs/ch32v003-promicro-photo-v1.2.0.jpg" width="400" />
 
 ## features
 
-- v1.0.1: 裏面には、バージョンは v1.0.0 と表記されていますが、v1.0.1 の誤りです。
-- v1.1.0: USB ソケットは rv32usb を使う前提で、D3、D4 に配線済み。不使用の場合にはダンピング抵抗を未実装にするだけ。
-- v1.0.1: USB ソケットは 5V 電源専用であり、通信はできません。
-- v1.1.0: 内蔵発振器を使う前提。
-- v1.0.1: 外部発振器も使用可能。
-- ProMicro を再現するには、CH32V003 は GPIO の数が足りないため、19 Pin（20/A2） を R5 0R で GND 接続するようにしています。
+- ProMicro size
+  - To emulate a ProMicro, as the CH32V003 lacks sufficient GPIOs, pin 19 (20/A2) is connected to GND via a 0-ohm resistor (R5).
+- The MCU's VCC is set to 3.3V, but can be switched to 5V by connecting JP1 and removing the U2 3.3V regulator.
+- v1.1.0~: The USB D+/- is pre-wired to D3 and D4 for using rv003usb. If not used, simply do not mount the damping resistors.
+- The oscillator used is the MCU's built-in oscillator.
+
+🇯🇵
+
+- ProMicroサイズ
+  - ProMicro を再現するには、CH32V003 は GPIO の数が足りないため、19 Pin（20/A2） を R5 0R で GND 接続するようにしています。
 - MCU の VCC は 3.3V になっていますが、JP1 を接続し、U2 3.3V レギュレータを外すことで、5V にすることができます。
+- v1.1.0~: USB D+/- は rv003usb を使う前提で、D3、D4 に配線済み。不使用の場合にはダンピング抵抗を未実装にするだけ。
+- 発振器にはMCU内蔵発振器を使います
 
 ## CH32V003ProMicro v1.2.0
 
-v1.1.0 からの差分。部品点数が減ってちょっと安くなりました。
+### Changes
+
+- Changed power supply protection IC from CH217K to CH213K
+
+🇯🇵
 
 - 電源保護 IC を、CH217K から CH213K に変更
 
@@ -23,7 +33,7 @@ v1.1.0 からの差分。部品点数が減ってちょっと安くなりまし�
 - Semantics [PDF](docs/ch32v003-promicro-semantics-v1.2.0.pdf) [kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fch32v-dev-boards%2Fblob%2Fch32v003promicro%2F1.2.0%2Fch32v003-promicro%2Fch32v003-promicro.kicad_sch)
 - PCB [kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fch32v-dev-boards%2Fblob%2Fch32v003promicro%2F1.2.0%2Fch32v003-promicro%2Fch32v003-promicro.kicad_pcb)
 
-### ピン配置 Pin Out
+### Pin Out
 
 ![Alt text](docs/ch32v003-promicro-pinout-v1.1.0.png)
 
@@ -49,10 +59,16 @@ v1.1.0 からの差分。部品点数が減ってちょっと安くなりまし�
 
 ## CH32V003ProMicro v1.1.0
 
-v1.0.1 から差分。
+### Changes
+
+- Pin assignment change.
+- v1.1.0~: The USB D+/- is pre-wired to D3 and D4 for using rv003usb. If not used, simply do not mount the damping resistors.
+- Removed external oscillator. Assuming that the internal oscillator is used.
+
+🇯🇵
 
 - ピン配置変更。
-- USB ソケットは rv32usb を使う前提で、D3、D4 に配線済み。不使用の場合にはダンピング抵抗を未実装にするだけ。
+- USB D+/-は rv32usb を使う前提で、D3、D4 に配線済み。不使用の場合にはダンピング抵抗を未実装にするだけ。
 - 外部発振器を削除。内蔵発振器を使う前提。
 
 ### DataSheet
@@ -83,7 +99,7 @@ v1.0.1 から差分。
 | R8          | Register 0805 0Ω                         | 1        |
 | SW1         | Button SKRPABE010                        | 1        |
 | U1          | Regulator 3.3V SOT-89 AMS1117-3.3        | 1        |
-| U2          | MCU LQFP48 WCH CH32V003F4P6              | 1        |
+| U2          | MCU TSSOP20 WCH CH32V003F4P6             | 1        |
 | U3          | USB Power Protection IC SOT-23-6L CH217K | 1        |
 
 ## CH32V003ProMicro v1.0.1

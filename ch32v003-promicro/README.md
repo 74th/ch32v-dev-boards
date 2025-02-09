@@ -1,6 +1,8 @@
-# WCH CH32V003 ProMicro サイズ開発ボード
+# WCH CH32V003 ProMicro-Sized Development Board
 
 <img src="docs/ch32v003-promicro-photo-v1.2.0.jpg" width="400" />
+
+Shop(Booth, Japan): https://booth.pm/ja/items/4645948
 
 ## features
 

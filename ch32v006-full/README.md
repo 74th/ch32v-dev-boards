@@ -1,5 +1,7 @@
 # CH32V006-full Dev Board
 
+<img src="./docs/photo_1.0.0_1.jpg" alt="CH32V006-full" width="45%"/><img src="./docs/photo_1.0.0_2.jpg" alt="CH32V006-full" width="45%"/>
+
 ## target mcu
 
 - CH32V006K8U6

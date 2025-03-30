@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "CH32V003 ProMicro")
-		(rev "v1.2.0")
+		(rev "v1.3.1")
 	)
 	(lib_symbols
 		(symbol "74th_Interface:ProMicro-Left"
@@ -4065,7 +4065,7 @@
 		)
 		(uuid "1554c9f9-d251-4ba7-81da-eab6cf7efabb")
 	)
-	(text "CH32V003"
+	(text "CH32V00x"
 		(exclude_from_sim no)
 		(at 13.97 17.78 0)
 		(effects

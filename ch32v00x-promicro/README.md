@@ -1,5 +1,11 @@
 # WCH CH32V00x ProMicro-Sized Development Board
 
+![](./docs/ch32v00x-promicro-photo-v1.3.1.jpg)
+
+I forked the CH32V003 ProMicro v1.3.0 to simplify it by removing the USB wiring.
+
+🇯🇵
+
 CH32V003 ProMicro v1.3.0から、USBへの配線を取り除いてシンプルにするために、forkしました。
 
 ## features
@@ -20,10 +26,12 @@ CH32V003 ProMicro v1.3.0から、USBへの配線を取り除いてシンプル�
 
 ### Changes
 
+- Added SWIO and GND ports for WCH-LinkE connection
 - Remove USB Data lines
 
 🇯🇵
 
+- WCH-LinkE接続用にSWIO、GNDポートを追加
 - USB データラインを削除
 
 ### DataSheet

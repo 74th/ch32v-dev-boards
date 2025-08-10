@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "RVSWDIO Programmer")
-		(rev "1.0.0")
+		(rev "1.0.1")
 	)
 	(lib_symbols
 		(symbol "74th_Interface:Pin_6_GND"

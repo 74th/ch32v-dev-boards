@@ -3405,7 +3405,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "0"
 			(at 100.33 85.09 90)
 			(effects
 				(font
@@ -5510,7 +5510,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "0"
 			(at 100.33 68.58 90)
 			(effects
 				(font
@@ -5712,7 +5712,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "0"
 			(at 100.33 77.47 90)
 			(effects
 				(font

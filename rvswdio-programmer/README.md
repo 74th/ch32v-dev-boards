@@ -1,4 +1,4 @@
-# RVSWDIO Programer
+# RVSWDIO Programmer
 
 firmware
 
